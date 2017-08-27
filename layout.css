@@ -4,6 +4,21 @@ margin: 0;
 }
 
 
+a:link, a:visited {
+color: rgb(0, 70, 60);
+text-decoration: underline;
+}
+
+a:hover, a:focus {
+font-weight: bold;
+}
+
+a:active {
+text-decoration: none;
+}
+
+
+
 html {
 overflow-y: scroll;
 }
@@ -84,6 +99,17 @@ text-align: center;
 }
 
 
+.imageborder {
+border: 2px solid rgb(252, 249, 192);
+}
+		
+.floatleft {
+float:left;
+margin-right: 5px;
+margin-bottom: 5px;
+}
+
+
 h1, h2, h3 {
 margin-bottom: 0.5em;
 }
@@ -93,18 +119,7 @@ font-size: 120%;
 color: black;
 }
 
-a:link, a:visited {
-color: rgb(0, 70, 60);
-text-decoration: underline;
-}
 
-a:hover, a:focus {
-font-weight: bold;
-}
-
-a:active {
-text-decoration: none;
-}
 
 
 
