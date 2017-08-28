@@ -91,6 +91,7 @@ div#content {
 background-color: rgb(177, 240, 223);
 color: black;
 padding: 10px 20px 10px;
+overflow: hidden;
 }
 
 div#footer {
@@ -104,9 +105,46 @@ border: 2px solid rgb(252, 249, 192);
 }
 		
 .floatleft {
-float:left;
+float: left;
 margin-right: 5px;
 margin-bottom: 5px;
+}
+
+
+div.gallery {
+float: left;
+width: 48%;
+margin: 1%;
+padding: 5px 0;
+}
+
+div.gallery img {
+border-radius: 100%;
+max-width: 100%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+div.gallery h3, h2 {
+text-align: center;
+font-style: italic;
+}
+
+div.gallery h2 {
+margin-top: 1em;
+margin-bottom: 1px;
+}
+
+div.gallery h3 {
+margin-bottom: 1em;
+}
+
+
+.cf:after {
+content: " ";
+display: table;
+clear: both;
 }
 
 
@@ -119,6 +157,14 @@ font-size: 120%;
 color: black;
 }
 
+h2 { 
+font-size: 110%;
+color: black;
+}
+
+h3 {
+font-size: 105%;
+}
 
 
 
