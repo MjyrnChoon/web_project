@@ -12,6 +12,15 @@
    
    <link rel="icon" href="..\logo.ico">
 
+    <script> 
+	function toggleDetails(){
+  var div = document.getElementsByClassName('details')[0];
+
+  if (!div.style.display || div.style.display === 'block') div.style.display = 'none';
+  else div.style.display = 'block';
+  }
+   </script>
+   
 </head>
 
 <body>
@@ -39,8 +48,13 @@
 <div class="gallery">
 
 <img src="pokemonswing_thumb.jpeg" alt="Pokemon playing on a swing Lineart">
-<h2> test </h2>
-<h3> Finishing date </h3>
+<h2> Pokemon Swing Lineart </h2>
+<h3> finishing date 25-08-2017</h3>
+
+<button onclick="toggleDetails()" class="button">Details</button> 
+                   
+<div class="details">
+
 <p> Hi everyone, glad you visited my site. :)
 I'm Melanie and after i took a veeery long break from drawing (almost 13 years), i finally started again. It's lots of fun, but i'm quite rusty so my drawings are far from being good. But i really hope to improve througout the years. :3
 That's why constructive critism is always welcomed.<br>
@@ -52,7 +66,7 @@ That's why constructive critism is always welcomed.<br>
 
 I try to draw as much as possible in my spare time. Also, i like to try new stuff, so while most of my drawings will be in Anime/Manga style, expect to see something else from time to time. :)
 </p>
-
+</div>
 </div>
 
 
