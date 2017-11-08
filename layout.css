@@ -42,7 +42,7 @@ table {
 	border-spacing: 0;
 }
 
-/* -- normalizing end -- */
+/* -- normalizing end -- 
 
 
 
@@ -91,8 +91,8 @@ div#wrapper {
 
 aside[role="complementary"] {
 	position: absolute;
-	left: 101.5%;
-	top: 202px;
+	left: 102%;
+	top: 205px;
 }
 
 
@@ -118,38 +118,53 @@ header[role="banner"] h1 {
 nav[role="navigation"] {
 	width: 100%;
 	background-color: rgb(0, 87, 84);
-	padding: 0.5%;
-	text-align: center;
 	font-weight: bold;
-	font-size: 20px;
-	font-size: 1.25rem;
-}
-
-nav[role="navigation"] li {
-	display: inline;
-	list-style-type: none;
-	margin: 2%;
+	font-size: 0;
+	text-align: center;
 }
 
 nav[role="navigation"] a:link, a:visited {
-	color: white;
+	color: rgb(200, 270, 250);
 	text-decoration: none;
 }
 
 nav[role="navigation"] a:hover, a:focus {
-	background-color: rgb(177, 240, 223);
 	color: rgb(0, 87, 84);
 }
 
 nav[role="navigation"] a:active {
-	background-color: rgb(127, 190, 173);
 	color: rgb(0, 40, 43);
 }
+
+.navitem {
+	border-right: 1px solid rgb(177, 240, 223);
+	display: inline-block;
+	padding: 5px;
+	font-size: 20px;
+	font-size: 1.25rem;
+	text-align: center;
+	width: 21%;
+	position: relative;
+}
+
+.navitem:first-child {
+	border-left: 1px solid rgb(177, 240, 223);
+}
+	
+.navitem:hover, .navitem:focus {
+	background-color: rgb(177, 240, 223);
+}
+
+.navitem:active {
+	background-color: rgb(127, 190, 173);
+}
+	
 
 div#contentwrap {
 	width: 100%;
 	color: black;
 }
+
 div#titlewrap {
 	width: 100%;
 	margin: 25px 20px 10px;
