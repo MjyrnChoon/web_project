@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <title>Choon-Productions</title>
 
-   <meta name="description" content="Choon-Production - Choonse your cliche description here">
+   <meta name="description" content="Choon-Production - Games, Art, Anime and me blabbling about stuff! What else could you ask for?">
    <link href="..\layout.css" rel="stylesheet" media="screen">
    
    <link rel="icon" href="..\logo.ico">
@@ -17,32 +17,40 @@
   
 <body>
 
-
 <div id="wrapper">
 
-<div id="socials"> 
+<aside role="complementary"> 
 
-<a href="https://mjyrn.deviantart.com/" title="Take a look at my Deviantart Account!"><img src="..\deviantartlogo.png"></a>
-<a href="https://twitter.com/MjyrnChoon" title="Visit me on Twitter!"><img src="..\twitterlogo.jpg"></a>
+<a href="https://mjyrn.deviantart.com/" title="Visit me on Deviantart!"><img src="../deviantartlogo.png"></a>
+<a href="https://twitter.com/MjyrnChoon" title="Visit me on Twitter!"><img src="../twitterlogo.jpg"></a>
 
-</div>
+</aside>
 
-<div id="banner">Banner Place</div>
 
-<div id="navi">
-<ul>
-<li><a href="home.html">Home</a></li>
-<li><a href="news.html">News</a></li>
-<li><a href="about.html">About</a></li>
-<li><a href="drawings.html">Drawings</a></li>
-<li>Games</li>
-<li>Favs</li>
-</ul>
-</div>
+<header role="banner">
 
-<div id="content" class="cf">
+<h1>Choon-Productions</h1>
 
+</header>
+
+
+
+<nav role="navigation">
+
+<a href="../home.html"><div class="navitem">Home</div></a>
+<a href="news.html"><div class="navitem">News</div></a>
+<a href="about.html"><div class="navitem">About</div></a>
+<a href="gallery/gallery.html"><div class="navitem current">Art</div></a>
+
+</nav>
+
+<div id="contentwrap">
+
+<div id="titlewrap">
 <h1>Drawings</h1>
+</div>
+
+<main role="content" class="galleryexeption">
 
 <div class="gallery">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -358,6 +366,12 @@
 <h2> Gothic Umbreon Trainer Lineart </h2>
 <h3> finished on 03-04-2016</h3>
 
+</main>
+
+</div>
+
+<footer role="contentinfo" class="cf">&copy; 2017 Choon Productions </footer>
+
 </div>
 
 <!-- The Modal -->
@@ -373,14 +387,6 @@
   <div id="caption"></div>
 </div>
 
-
-
-</div>
-
-
-<div id="footer" class="cf">&copy; 2017 Choon Productions </div>
-
-</div>
 
 <script>
 // Get the modal
