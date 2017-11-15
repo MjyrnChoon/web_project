@@ -130,12 +130,14 @@ nav[role="navigation"] {
 	text-align: center;
 }
 
-nav[role="navigation"] a:link, a:visited {
+nav[role="navigation"] a:link, 
+nav[role="navigation"] a:visited {
 	color: rgb(200, 270, 250);
 	text-decoration: none;
 }
 
-nav[role="navigation"] a:hover, a:focus {
+nav[role="navigation"] a:hover, 
+nav[role="navigation"] a:focus {
 	color: rgb(0, 87, 84);
 }
 
@@ -218,6 +220,20 @@ footer[role="contentinfo"] {
 }
 
 /* --Content Boxes Layout end--*/
+
+
+
+/*--News Layout..*/
+
+.readmore {
+	display: none;
+}
+
+article[id*="n"]:target .readmore {
+	display: block; 
+}
+
+article[id*="n"]:target .used { display:none; }
 
 
 
@@ -359,7 +375,7 @@ font-size: 100%;
 
 .intro {
 	border: 2px solid rgb(252, 249, 192);
-	width: 100%:
+	max-width: 100%;
 }
 		
 .floatleft {
